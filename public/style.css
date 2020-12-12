@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap');
+
 *,
 *::before,
 *::after {
@@ -13,16 +15,16 @@ body,
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #5207F2;
   color: #ffffff;
   height: 80px;
   padding: 10px;
-  line-height: 3;
-  font-size: 1.2rem;
+  line-height: 2.5;
+  font-size: 1.5rem;
 }
 
 a,
@@ -367,10 +369,6 @@ form > button {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
-/* .workout .card {
-  width: 350px;
-} */
 
 .prev-workout button {
   margin: 10px;
