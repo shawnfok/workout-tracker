@@ -13,7 +13,8 @@ app.use(compression());
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutsdb", 
+{
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
