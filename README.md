@@ -13,5 +13,5 @@ This app is using MongoDB database to log user's data.
 
 ![Workout Tracker+](./img/readme-img-01.png)
 
-## Checkout Workout Tracker+:  
+## Check out Workout Tracker+:  
 https://workout-tracker-plus.herokuapp.com/
